@@ -71,3 +71,6 @@ $git push origin master
 //[easy]}}
 
 
+NOTE:
+ctr + to zoom in git bash
+
