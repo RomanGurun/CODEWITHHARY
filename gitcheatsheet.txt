@@ -67,3 +67,7 @@ $git push origin master
 ///to upload on github
 
 
+//IF you have update a file and want to repost in git then do this code on git bash
+//[easy]}}
+
+
