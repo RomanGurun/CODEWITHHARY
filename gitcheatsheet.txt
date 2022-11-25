@@ -7,7 +7,9 @@ $ touch .gitignore
 //like this to discard that folder to get upload in github 
 //e.g node_modules/
 
+
 $git config --global user.name Harry(YOUR NAME)
+
 
 $git config --global user.email "romangurung569@gmail.com"
 
@@ -18,25 +20,39 @@ $ git init
 //to create a git folder inside path
 //and to input a contain inside git
 
+
+
 $ git add . //to push and upload all the file excluding .gitignore files in side a git init folder
 //or files gets in staging area excluding /gitignore file.
 
+
 $git commit -m "Initial commit"
+
 
 $git status 
 //on branch master
+
+
+
 //nothing to commit,working tree clean message ayo bahne you are ready to upload the file on github.
 ///{#just to see}}
 
 //((((GITHUB MA SSSH CHHOSE GARERA PATH "COPY GARERA WRITE BELOW CMD IN GIT BASH")))
+$ git remote add origin git@github.com:RomanGurun/CODEWITHHARY.git
+//IMPORRTANT IT IS A LINK OF YOUR SSH GITHUB ACCOUNT.
+
+
 
 $ ssh-keygen -t ed25519 -C "your_email@example.com"
 //This code doesnot work on my computer
 Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
 
+
+
 $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 //Your public key has been saved in /c/Users/97798/.ssh/id_rsa.pub
+
 
 
 $cat ./c/Users/97798/.ssh/id_ed25519.pub(public key saved path)
@@ -45,6 +61,7 @@ and add this key to your github account]]]]]
 
 //{{git remote add origin [ssh your github git.ur]
 }}
+
 
 $git push origin master
 ///to upload on github
